@@ -12,7 +12,7 @@ import lightgbm as lgbcd
 import xgboost as xgb
 import pickle
 
-data=pd.read_csv(r"C:\Users\abhin\OneDrive\Desktop\csv data\USA_Housing.csv")
+data=pd.read_csv("USA_Housing.csv")
 
 x=data.drop(['Price','Address'],axis=1)
 y=data['Price']
